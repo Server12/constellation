@@ -1,0 +1,461 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaa8b41e45ea348de918999f604c8634, type: 3}
+  m_Name: ConstellationConfig
+  m_EditorClassIdentifier: 
+  _celestialRadius: 4
+  items:
+  - name: Cyg
+    ra: 20.31
+    dec: 40.3
+    image:
+      scale: 2.45
+      angle: 0
+      ra: 20.61
+      dec: 43.49
+    pairs:
+    - from: 104394
+      to: 102157
+    - from: 102157
+      to: 100128
+    - from: 100128
+      to: 96858
+    - from: 95554
+      to: 94484
+    - from: 101767
+      to: 100128
+    - from: 100128
+      to: 97799
+    - from: 97799
+      to: 95648
+    - from: 104394
+      to: 103081
+    - from: 103081
+      to: 101767
+    - from: 95554
+      to: 99529
+    - from: 99529
+      to: 101767
+    - from: 96858
+      to: 95554
+    stars:
+    - id: 94484
+      ra: 19.285046
+      dec: 53.368458
+      magnitude: 3.8
+      color: fff8efff
+    - id: 95077
+      ra: 19.402105
+      dec: 29.621338
+      magnitude: 4.99
+      color: bacfffff
+    - id: 95260
+      ra: 19.43587
+      dec: 36.317898
+      magnitude: 5.17
+      color: bacfffff
+    - id: 95360
+      ra: 19.45721
+      dec: 52.320435
+      magnitude: 5.73
+      color: c7d8ffff
+    - id: 95554
+      ra: 19.495098
+      dec: 51.72978
+      magnitude: 3.76
+      color: dae5ffff
+    - id: 95648
+      ra: 19.512022
+      dec: 27.95968
+      magnitude: 3.05
+      color: fff3e5ff
+    - id: 95652
+      ra: 19.51261
+      dec: 27.965277
+      magnitude: 5.12
+      color: bacfffff
+    - id: 95752
+      ra: 19.529533
+      dec: 34.45297
+      magnitude: 4.74
+      color: b6ccffff
+    - id: 96000
+      ra: 19.580812
+      dec: 29.462954
+      magnitude: 5.39
+      color: fffffeff
+    - id: 96085
+      ra: 19.59675
+      dec: 36.94454
+      magnitude: 6.03
+      color: bfd2ffff
+    - id: 96138
+      ra: 19.60737
+      dec: 50.221104
+      magnitude: 4.49
+      color: fafbffff
+    - id: 96377
+      ra: 19.656279
+      dec: 30.15332
+      magnitude: 4.68
+      color: fff8efff
+    - id: 96386
+      ra: 19.657356
+      dec: 42.81828
+      magnitude: 5.41
+      color: bfd2ffff
+    - id: 96588
+      ra: 19.696932
+      dec: 50.52506
+      magnitude: 5.99
+      color: fffefeff
+    - id: 96811
+      ra: 19.737946
+      dec: 37.354355
+      magnitude: 4.89
+      color: fff8efff
+    - id: 96858
+      ra: 19.749577
+      dec: 45.13081
+      magnitude: 2.86
+      color: c7d8ffff
+    - id: 96986
+      ra: 19.773777
+      dec: 33.727596
+      magnitude: 5
+      color: ffffffff
+    - id: 97318
+      ra: 19.842754
+      dec: 32.91406
+      magnitude: 7.91
+      color: ffcd91ff
+    - id: 97319
+      ra: 19.842777
+      dec: 38.72242
+      magnitude: 5.18
+      color: ffdcb4ff
+    - id: 97324
+      ra: 19.843813
+      dec: 52.988003
+      magnitude: 5.03
+      color: ffebd4ff
+    - id: 97559
+      ra: 19.88816
+      dec: 57.523483
+      magnitude: 5.14
+      color: b6ccffff
+    - id: 97744
+      ra: 19.927162
+      dec: 52.43895
+      magnitude: 4.91
+      color: d6e2ffff
+    - id: 97757
+      ra: 19.931044
+      dec: 38.486706
+      magnitude: 4.95
+      color: bfd2ffff
+    - id: 97799
+      ra: 19.938437
+      dec: 35.083424
+      magnitude: 3.89
+      color: fff5eaff
+    - id: 98114
+      ra: 19.998665
+      dec: 37.042885
+      magnitude: 5.15
+      color: b6ccffff
+    - id: 98260
+      ra: 20.022655
+      dec: 50.104694
+      magnitude: 5.06
+      color: fff1e2ff
+    - id: 98715
+      ra: 20.106047
+      dec: 35.97247
+      magnitude: 5.38
+      color: fffdfaff
+    - id: 98986
+      ra: 20.157116
+      dec: 36.839622
+      magnitude: 4.93
+      color: b6ccffff
+    - id: 99320
+      ra: 20.221682
+      dec: 46.815674
+      magnitude: 4.8
+      color: d3e0ffff
+    - id: 99336
+      ra: 20.223295
+      dec: 56.567722
+      magnitude: 4.28
+      color: d6e2ffff
+    - id: 99356
+      ra: 20.227196
+      dec: 46.74133
+      magnitude: 3.8
+      color: ffebd4ff
+    - id: 99451
+      ra: 20.242231
+      dec: 36.8063
+      magnitude: 4.93
+      color: dae5ffff
+    - id: 99529
+      ra: 20.257868
+      dec: 47.714207
+      magnitude: 3.96
+      color: ffe5c7ff
+    - id: 99723
+      ra: 20.296446
+      dec: 38.03293
+      magnitude: 4.77
+      color: f6f8ffff
+    - id: 99786
+      ra: 20.307959
+      dec: 36.9998
+      magnitude: 5.58
+      color: cfddffff
+    - id: 99799
+      ra: 20.310852
+      dec: 34.982777
+      magnitude: 5.14
+      color: fffefeff
+    - id: 100128
+      ra: 20.370474
+      dec: 40.25668
+      magnitude: 2.23
+      color: fffefeff
+    - id: 100260
+      ra: 20.397673
+      dec: 32.19017
+      magnitude: 4.43
+      color: ffe9cfff
+    - id: 100533
+      ra: 20.45063
+      dec: 49.383366
+      magnitude: 5.73
+      color: f2f5ffff
+    - id: 100581
+      ra: 20.459515
+      dec: 38.44033
+      magnitude: 5.63
+      color: d3e0ffff
+    - id: 100741
+      ra: 20.488997
+      dec: 36.454727
+      magnitude: 5.9
+      color: fafbffff
+    - id: 100750
+      ra: 20.489927
+      dec: 30.368555
+      magnitude: 4.01
+      color: fafbffff
+    - id: 100812
+      ra: 20.500982
+      dec: 48.95157
+      magnitude: 4.94
+      color: bfd2ffff
+    - id: 100888
+      ra: 20.516453
+      dec: 36.93584
+      magnitude: 6.21
+      color: fff8efff
+    - id: 100917
+      ra: 20.521893
+      dec: 49.2203
+      magnitude: 5.44
+      color: ffe0bcff
+    - id: 101148
+      ra: 20.565052
+      dec: 35.25085
+      magnitude: 4.61
+      color: ffdfb9ff
+    - id: 101438
+      ra: 20.625494
+      dec: 31.57254
+      magnitude: 6.32
+      color: bfd2ffff
+    - id: 101736
+      ra: 20.68404
+      dec: 32.307285
+      magnitude: 5.53
+      color: fffbf8ff
+    - id: 101767
+      ra: 20.69053
+      dec: 45.28034
+      magnitude: 1.25
+      color: d3e0ffff
+    - id: 101846
+      ra: 20.703508
+      dec: 50.34003
+      magnitude: 5.41
+      color: bacfffff
+    - id: 102122
+      ra: 20.761044
+      dec: 30.719715
+      magnitude: 4.22
+      color: fff4e7ff
+    - id: 102157
+      ra: 20.770191
+      dec: 33.970257
+      magnitude: 2.48
+      color: fff5eaff
+    - id: 102258
+      ra: 20.79015
+      dec: 36.49072
+      magnitude: 4.53
+      color: bfd2ffff
+    - id: 102393
+      ra: 20.815638
+      dec: 46.114136
+      magnitude: 4.81
+      color: fffffeff
+    - id: 102513
+      ra: 20.834703
+      dec: 44.059303
+      magnitude: 5.06
+      color: e2eaffff
+    - id: 102758
+      ra: 20.88743
+      dec: 44.38726
+      magnitude: 4.8
+      color: b6ccffff
+    - id: 103081
+      ra: 20.952892
+      dec: 41.167137
+      magnitude: 3.94
+      color: ccdbffff
+    - id: 103300
+      ra: 20.997099
+      dec: 47.52095
+      magnitude: 4.74
+      color: bfd2ffff
+    - id: 103400
+      ra: 21.019703
+      dec: 46.155773
+      magnitude: 5.38
+      color: aec6ffff
+    - id: 103725
+      ra: 21.082184
+      dec: 43.927853
+      magnitude: 3.72
+      color: ffdfb9ff
+    - id: 103859
+      ra: 21.110025
+      dec: 47.648403
+      magnitude: 4.56
+      color: ffe0bcff
+    - id: 103879
+      ra: 21.114985
+      dec: 38.749416
+      magnitude: 5.2
+      color: fff4e7ff
+    - id: 103883
+      ra: 21.11535
+      dec: 38.742054
+      magnitude: 6.05
+      color: ffead2ff
+    - id: 104394
+      ra: 21.215607
+      dec: 30.226915
+      magnitude: 3.21
+      color: fff6edff
+    - id: 104549
+      ra: 21.246525
+      dec: 38.04532
+      magnitude: 3.74
+      color: fafbffff
+    - id: 104764
+      ra: 21.290264
+      dec: 39.39468
+      magnitude: 4.22
+      color: d3e0ffff
+    - id: 104800
+      ra: 21.298634
+      dec: 34.896896
+      magnitude: 4.41
+      color: bacfffff
+    - id: 104848
+      ra: 21.307552
+      dec: 43.945946
+      magnitude: 5.04
+      color: bfd2ffff
+    - id: 105471
+      ra: 21.429728
+      dec: 36.667385
+      magnitude: 5.93
+      color: ccdbffff
+    - id: 105601
+      ra: 21.455935
+      dec: 37.1168
+      magnitude: 5.3
+      color: b6ccffff
+    - id: 105752
+      ra: 21.49082
+      dec: 46.540585
+      magnitude: 5.22
+      color: fff8efff
+    - id: 106139
+      ra: 21.566347
+      dec: 45.59184
+      magnitude: 3.98
+      color: fffaf5ff
+    - id: 106210
+      ra: 21.579601
+      dec: 38.534054
+      magnitude: 4.87
+      color: fff3e5ff
+    - id: 106369
+      ra: 21.615826
+      dec: 40.41352
+      magnitude: 5.04
+      color: e2eaffff
+    - id: 106656
+      ra: 21.669752
+      dec: 43.27384
+      magnitude: 5.09
+      color: ffdfb9ff
+    - id: 106754
+      ra: 21.692848
+      dec: 40.80522
+      magnitude: 6.07
+      color: d3e0ffff
+    - id: 106795
+      ra: 21.701572
+      dec: 51.18962
+      magnitude: 4.69
+      color: bacfffff
+    - id: 106819
+      ra: 21.706379
+      dec: 41.07702
+      magnitude: 5.73
+      color: cfddffff
+    - id: 106910
+      ra: 21.723791
+      dec: 38.28359
+      magnitude: 5.69
+      color: c7d8ffff
+    - id: 106967
+      ra: 21.735716
+      dec: 28.742632
+      magnitude: 4.49
+      color: ffffffff
+    - id: 107190
+      ra: 21.77989
+      dec: 49.30957
+      magnitude: 4.23
+      color: bacfffff
+    - id: 118050
+      ra: 21.73564
+      dec: 28.7431
+      magnitude: 6.08
+      color: f6f8ffff
+  _textAsset: {fileID: 4900000, guid: d407e358f76ef42ce9e3fe5881f483be, type: 3}
