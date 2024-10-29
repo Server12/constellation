@@ -195,7 +195,7 @@ namespace Constellation.Module_1.Logic.Controllers
                 _animationOrderIndex = newGroupIndex;
             }
 
-            float groupProgress = ((progress * groupCount) - _animationOrderIndex) / groupDuration;
+            float groupProgress = ((progress * groupCount) - _animationOrderIndex);
             groupProgress = Mathf.Clamp01(groupProgress);
 
             _linesToAnimate[_animationOrderIndex].UpdateAlpha(groupProgress);

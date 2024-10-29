@@ -112,7 +112,7 @@ namespace Constellation.Module_1.Logic
 
                 _connectionsController.UpdateAnimation(_progress, _duration);
 
-                if (_progress >= 1f || _progress <= 0)
+                if (_progress is >= 1f or <= 0)
                 {
                     _startAnimation = false;
                     OnAnimationComplete?.Invoke();
